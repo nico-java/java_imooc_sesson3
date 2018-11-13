@@ -9,7 +9,7 @@ public class TestGeneric {
 	 * */
 	public List<Course> courses;
 	public TestGeneric() {
-		this.courses = new ArrayList<Course>();
+		this.courses = new ArrayList<Course>();// 实例化带有泛型的courses 
 	}
 	/**
 	 * 测试添加
