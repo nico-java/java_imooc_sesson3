@@ -6,6 +6,9 @@ package com.imooc.collection;
 public class Course {
 	public String id;
 	public String name;
+	public Course() {
+		
+	}
 	public Course(String name,String id) {
 		this.name = name;
 		this.id = id;
